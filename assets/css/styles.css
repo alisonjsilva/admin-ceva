@@ -1,0 +1,189 @@
+@font-face {
+    font-family: DaxMedium;
+    src: url(DaxMedium.ttf);
+}
+
+@font-face {
+    font-family: DaxBold;
+    src: url(Dax-Bold.ttf);
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: DaxMedium, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+
+
+li {
+    list-style: none;
+}
+
+/*#question {
+  font-size: 33px;
+}*/
+.listQuestion {
+    clear: both;
+}
+
+    .listQuestion li {
+        margin-bottom: 26px;
+        vertical-align: middle;
+        ;
+        display: table;
+        height: 100%;
+        /* line-height: 60px;*/
+    }
+
+        .listQuestion li span {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+    .listQuestion input {
+        clear: both;
+        width: 70px;
+        height: 70px;
+        border-style: none;
+        background: url('../images/BotRed01.png');
+        background-repeat: no-repeat;
+        background-size: 70px 70px;
+        margin-right: 20px;
+        float: left;
+    }
+
+    .listQuestion input {
+        margin-right: 30px;
+        padding: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+
+.question-bot {
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    background: url('../images/BotBlack01.png');
+    background-repeat: no-repeat;
+    ;
+    background-size: 70px 70px;
+    text-align: center;
+    color: #fff;
+    vertical-align: center;
+    line-height: 70px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.question-title {
+    height: 50px;
+    line-height: 37px;
+    /*vertical-align: center;*/
+    /*margin-left: 20px;*/
+    margin-bottom: 47px;
+    /*display: inline-flex;*/
+}
+
+    .question-title span {
+        /*margin-left: 20px;*/
+    }
+
+/* Home video */
+.entrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 140px;
+    width: 250px;
+    background-image: url('../images/Placa01.png');
+    background-repeat: no-repeat;
+    ;
+    background-size: 250px auto;
+    text-align: center;
+    padding-top: 55px;
+    font-size: 33px;
+    z-index: 99999;
+}
+
+    .entrar a {
+        position: relative;
+        color: #fff;
+        margin: auto;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+/* Fim home video */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+video {
+    position: relative;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    #app {
+        margin: 10px;
+    }
+
+    .question-bot {
+        margin-left: 0;
+    }
+
+    .question-title {
+        margin-left: 0px;
+    }
+
+        .question-title span {
+            margin-left: 20px;
+        }
+
+    ul {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .listQuestion li {
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+}
+
+.btn-admin {
+    float: left;
+    background-color: #e5e5e5;
+    height: 80px;
+    position: absolute;
+    z-index: 999999;
+    top: 0px;
+}
+.reinitGame {
+    position:absolute;
+    width:250px;
+    height:200px;
+    z-index:9999999;
+    right:0;
+    top:0;
+}
